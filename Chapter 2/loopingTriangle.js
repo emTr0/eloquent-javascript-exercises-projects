@@ -1,3 +1,6 @@
 let hashtags = "#";
 
-console.log(hashtags.length);
+while (hashtags.length <= 7) {
+    console.log(hashtags);
+    hashtags += "#";
+}
